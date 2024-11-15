@@ -1,0 +1,56 @@
+/* Header */
+
+header{
+    width:95%;
+    height: 200px;
+    background-color: #dab5dd;
+    color: rgb(56, 16, 59);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+#mainTitle{
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+}
+
+nav{
+    width:95%;
+    float:inline-start;   
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    padding:4px;
+    background-color: #c2c7ca;
+    color: black;
+}
+
+.navitemActive{
+    background-color: rgb(52, 53, 54);
+    color:white;
+    
+}
+
+nav li:hover{
+    background-color: rgb(52, 53, 54);
+    color:white;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
