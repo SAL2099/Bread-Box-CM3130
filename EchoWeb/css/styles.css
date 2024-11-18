@@ -17,7 +17,7 @@ header{
 #mainTitle{
     text-align: center;
     padding: 50px;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 nav{
@@ -28,6 +28,7 @@ nav{
     margin-left: 50px;
     margin-right: 50px;
     overflow: hidden;
+    font-size: 24px;
 }
 
 nav li{
@@ -37,16 +38,19 @@ nav li{
     padding:4px;
     background-color: #c2c7ca;
     color: black;
+
 }
 
 .navitemActive{
     background-color: rgb(52, 53, 54);
     color:white;
     
+    
 }
 
 .navitemActive a{
     color:rgb(255, 255, 255);
+    
 }
 
 
@@ -57,5 +61,22 @@ nav li:hover{
 
 nav li a{
     text-decoration: none;
-    color: black
+    color: black;
+
+    
 }
+p{
+    font-size: small;
+}
+button{
+    height:42px;
+    width: 100px;
+    font-size: 24px;
+}
+label{
+    font-size: 24px;
+}
+#tSize{
+    font-size: 24px;
+}
+
