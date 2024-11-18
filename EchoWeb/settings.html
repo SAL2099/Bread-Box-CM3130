@@ -34,7 +34,16 @@
         </nav>
 
         <main>
-
+            <p id = 'id1' onclick = 'biggerText()' >make text Bigger</p>
+            
+            <script>
+                function biggerText(){
+                    document.querySelector("p").style.fontSize = "100px";
+                    document.querySelector("h1").style.fontSize = "100px";
+                    document.querySelector("ul").style.fontSize = "100px";
+                    document.querySelector("a").style.fontSize = "100px";
+                }
+            </script>
         </main>
 
     </body>
