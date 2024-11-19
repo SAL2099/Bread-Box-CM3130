@@ -37,9 +37,17 @@ function changeText(){
         btnTag.style.fontSize = "16px";
     }
 }
+
 function darkMode(){
     mainTag = document.querySelector("body")
     mainTag.style.backgroundColor = "rgb(50, 50, 46)"
     var text =document.getElementById("textl")
     text.style.backgroundColor="rgb(217, 217, 217)"
+}
+
+function lightMode(){
+    mainTag = document.querySelector("body")
+    mainTag.style.backgroundColor = "rgb(255, 255, 255)"
+    var text =document.getElementById("textl")
+    text.style.backgroundColor="rgb(255, 255, 255)"
 }
