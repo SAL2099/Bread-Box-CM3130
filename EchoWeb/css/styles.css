@@ -87,3 +87,80 @@ label{
 #light{
     height:84px;
 }
+
+/* Emergency Help Page */ 
+
+#emergencyTitle{
+    text-align:center
+}
+
+aside {
+    width: 30%;
+    float: right;
+    margin-right: 5px;
+    border-radius: 5px;
+    /*background-color: #5FBDFF;
+    box-shadow: 2px 2px 5px black;*/
+  }
+
+.rightCol{
+    background-color: #b4b2b2d7;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin: 10px;
+    width: 48%;
+    height:fit-content;
+    float: right;
+}
+
+.leftCol{
+    background-color: #b4b2b2d7;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin: 10px;
+    width: 48%;
+    height:fit-content;
+    float: left;
+}
+
+#emerpage{
+    text-align: center;
+    background-color: #888686d7;
+    padding: 5px;
+}
+
+#panicbtn{
+    text-align: center;
+    font-size: 50px;
+    background-color: #fc0404d7;
+    padding: 10px;
+}
+
+#listitem{
+    font-size: 20px;
+}
+
+#quickexercise{
+    font-size: 20px;
+    background-color: #888686d7;
+    padding: 5px;
+}
+
+iframe{
+    width: 100%;
+    height:500px;
+}
+
+
+
+
+
+
