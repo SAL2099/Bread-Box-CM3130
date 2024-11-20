@@ -115,6 +115,8 @@ function darkMode(){
     mainTag.style.backgroundColor = "rgb(50, 50, 46)"
     var text =document.getElementById("textl")
     text.style.backgroundColor="rgb(217, 217, 217)"
+    textoption4.style.backgroundColor="rgb(217, 217, 217)"
+    textoption3.style.backgroundColor="rgb(217, 217, 217)"
     var hightlight = document.querySelector(".navitemActive")
     var textColour = document.getElementById("color")
     hightlight.style.backgroundColor="rgb(56, 16, 59)"
@@ -139,12 +141,21 @@ function lightMode(){
 function changeFont(){
 
     var e = document.getElementById("tFont")
+    var optionbox = document.getElementById("tSize")
     var text =document.getElementById("textl")
+    var text2 =document.getElementById("text2")
     var h1Tag = document.querySelector("h1")
     var ulTag = document.querySelector("ul")
     var aTag = document.querySelector("a")
     var btnTag = document.querySelector("button")
     var supportTag = document.getElementById("supportbtn")
+    var btn3Tag = document.getElementById("btn3")
+    var btn2Tag = document.getElementById("btn2")
+    var darkTag = document.getElementById("dark")
+    var lightTag = document.getElementById("light")
+    var textoption4 = document.getElementById("colorBlindText")
+    var option4Box = document.getElementById("tcolours")
+    
 
     if(e.value == "ComicSans"){
         h1Tag.style.fontFamily = "Cursive";
@@ -152,8 +163,17 @@ function changeFont(){
         aTag.style.fontFamily =  "Cursive";
         e.style.fontFamily ="Cursive";
         text.style.fontFamily = "Cursive";
+        text2.style.fontFamily = "Cursive";
         btnTag.style.fontFamily = "Cursive";
         supportTag.style.fontFamily = "Cursive";
+        btn2Tag.style.fontFamily = "Cursive";
+        darkTag.style.fontFamily = "Cursive";
+        lightTag.style.fontFamily = "Cursive";
+        btn3Tag.style.fontFamily = "Cursive";
+        optionbox.style.fontFamily = "Cursive";
+        textoption4.style.fontFamily = "Cursive";
+        option4Box.style.fontFamily = "Cursive";
+
         
     }
 
@@ -163,8 +183,16 @@ function changeFont(){
         aTag.style.fontFamily =  "Courier";
         e.style.fontFamily ="Courier";
         text.style.fontFamily = "Courier";
+        text2.style.fontFamily = "Courier";
         btnTag.style.fontFamily = "Courier";
         supportTag.style.fontFamily = "Courier";
+        btn2Tag.style.fontFamily = "Courier";
+        darkTag.style.fontFamily = "Courier";
+        lightTag.style.fontFamily = "Courier";
+        btn3Tag.style.fontFamily = "Courier";
+        optionbox.style.fontFamily = "Courier";
+        textoption4.style.fontFamily = "Courier";
+        option4Box.style.fontFamily = "Courier";
         
     }
     if(e.value == "Default"){
@@ -173,8 +201,16 @@ function changeFont(){
         aTag.style.fontFamily =  "Arial";
         e.style.fontFamily ="Arial";
         text.style.fontFamily = "Arial";
+        text2.style.fontFamily = "Arial";
         btnTag.style.fontFamily = "Arial";
         supportTag.style.fontFamily = "Arial";
+        btn2Tag.style.fontFamily = "Arial";
+        darkTag.style.fontFamily = "Arial";
+        lightTag.style.fontFamily = "Arial";
+        btn3Tag.style.fontFamily = "Arial";
+        optionbox.style.fontFamily = "Arial";
+        textoption4.style.fontFamily = "Arial";
+        option4Box.style.fontFamily = "Arial";
         
     }
 
