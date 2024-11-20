@@ -215,6 +215,12 @@ iframe{
     border:#dab5dd;
     filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.2));
 }
+.footerText{
+    font-size:16px; 
+    color:darkgray; 
+    text-align:center;
+    margin-top:64px;
+}
 
 
 
