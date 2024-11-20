@@ -103,7 +103,23 @@ function changeFont(){
 
 }
 function ColorBlind(){
-    alert()
-    var headerTag = document.getElementById("head1")
-    headerTag.style.backgroundColor="rgb(102, 138, 255)"
+    var e = document.getElementById("tcolours")
+    if(e.value == "Deuteranopia"){
+            var headerTag = document.getElementById("head1")
+            headerTag.style.backgroundColor="rgb(102, 138, 255)" 
+    }
+    if(e.value == "Protanopia"){
+        var headerTag = document.getElementById("head1")
+        headerTag.style.backgroundColor="rgb(102, 138, 255)" 
+    }
+    if(e.value == "Tritanopia"){
+        var headerTag = document.getElementById("head1")
+        headerTag.style.backgroundColor="rgb(102, 138, 255)" 
+    }
+    if(e.value == "Default"){
+        var headerTag = document.getElementById("head1")
+        headerTag.style.backgroundColor="#dab5dd";
+        headerTag.style.color ="rgb(56, 16, 59)";
+    }
+
 }
