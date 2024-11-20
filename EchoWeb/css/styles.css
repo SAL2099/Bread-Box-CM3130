@@ -76,16 +76,19 @@ p{
     font-size: small;
 }
 button{
-    height:42px;
+    height:84px;
     width: 100px;
     font-size: 24px;
     font-family:Arial;
+}
+#btn{
+    height:112px
 }
 label{
     font-size: 24px;
     font-family:Arial;
 }
-#tSize,#tFont{
+#tSize,#tFont,#tcolours{
     font-size: 24px;
     font-family:Arial;
 }
@@ -172,7 +175,7 @@ iframe{
 #supportbtn{
     position:fixed;
     text-align: center;
-    font-size: 50px;
+    font-size: 44px;
     background-color: #da8fdf;
     padding: 10px;
     margin-right:20px;
@@ -181,6 +184,7 @@ iframe{
     filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.2));
     border-radius:25px;
     width:300px;
+    font-family:Arial;
     
 }
 
