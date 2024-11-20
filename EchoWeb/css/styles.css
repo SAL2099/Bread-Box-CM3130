@@ -18,8 +18,9 @@ header{
 #mainTitle{
     text-align: center;
     padding: 50px;
-    font-size: 80px;
+    font-size: 70px;
     font-family:Arial;
+    font-weight: bold;
 }
 
 nav{
@@ -99,6 +100,23 @@ label{
 
 #light{
     height:84px;
+}
+
+#homeText{
+    width:50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 33%;
+    font-family:Arial;
+}
+
+#mentalText{
+    font-size: 55px;
+    font-family:Arial;
+    color: #dab5dd;
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight: bold;
 }
 
 /* Emergency Help Page */ 
