@@ -4,7 +4,7 @@ function changeText(){
     var h1Tag = document.querySelector("h1")
     var ulTag = document.querySelector("ul")
     var aTag = document.querySelector("a")
-    var btnTag = document.querySelector("button")
+    var btnTag = document.getElementById("btn")
     
     
 
@@ -64,11 +64,40 @@ function lightMode(){
 }
 
 function changeFont(){
-    alert("test")
-    var e = document.getElementById("tSize")
+
+    var e = document.getElementById("tFont")
     var text =document.getElementById("textl")
     var h1Tag = document.querySelector("h1")
     var ulTag = document.querySelector("ul")
     var aTag = document.querySelector("a")
     var btnTag = document.querySelector("button")
+
+    if(e.value == "ComicSans"){
+        h1Tag.style.fontFamily = "Cursive";
+        ulTag.style.fontFamily = "Cursive";
+        aTag.style.fontFamily =  "Cursive";
+        e.style.fontFamily ="Cursive";
+        text.style.fontFamily = "Cursive";
+        btnTag.style.fontFamily = "Cursive";
+        
+    }
+
+    if(e.value == "Courier"){
+        h1Tag.style.fontFamily = "Courier";
+        ulTag.style.fontFamily = "Courier";
+        aTag.style.fontFamily =  "Courier";
+        e.style.fontFamily ="Courier";
+        text.style.fontFamily = "Courier";
+        btnTag.style.fontFamily = "Courier";
+        
+    }
+    if(e.value == "Default"){
+        h1Tag.style.fontFamily = "Arial";
+        ulTag.style.fontFamily = "Arial";
+        aTag.style.fontFamily =  "Arial";
+        e.style.fontFamily ="Arial";
+        text.style.fontFamily = "Arial";
+        btnTag.style.fontFamily = "Arial";
+        
+    }
 }
