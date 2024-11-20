@@ -1,1 +1,3 @@
+This GitHub respository contains every file that we have worked on during this module, and includes files that are not attached to the dropbox. Please follow link below:
+
 https://github.com/SAL2099/Bread-Box-CM3130
