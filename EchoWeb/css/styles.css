@@ -173,11 +173,14 @@ iframe{
     position:fixed;
     text-align: center;
     font-size: 50px;
-    background-color: #dab5dd;
+    background-color: #da8fdf;
     padding: 10px;
+    margin-right:20px;
     bottom: 0px;
     right:0px;
-    
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.2));
+    border-radius:25px;
+    width:300px;
     
 }
 
@@ -203,6 +206,10 @@ iframe{
     width: 300px;
     margin-left:50px;
     border-radius: 25px;
+    font-size: 32px;
+    padding-bottom:5px;
+    border:#dab5dd;
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.2));
 }
 
 
