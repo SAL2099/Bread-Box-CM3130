@@ -1,0 +1,31 @@
+List of Security Standards Our Website must meet
+
+1.	TLS Encryption Standards; This would not apply to us just yet if we are not necessarily hosting the website, however it is very important of us to note that we should make use of TLS 1.2 or above for a more secure data transmission. To get this covered, we would look at implementing HTTPS with TLS to protect data on transit.
+2.	Access Control Standards (NIST 800-53); We must make sure that access to the data on the page is controlled
+3.	Penetration Testing and Vulnerability Assessments: As it states, we must carry out a vulnerability assessment and test our website security.
+4.	ISO/IEC 22301: Business Continuity Management System; In the likelihood that the website goes down for a bit, what are our backup plans, especially if the site becomes a critical support for student.
+5.	ISO/IEC 29100: Privacy Framework; In the way this applies to us, we must ensure that none of the users’ personal data is at risk since we are not collecting personal data.
+6.	NHS Data Security and Protection Toolkit (DSPT); This would apply to us as we are gonna be dealing with mental health, therefore we must meet the NHS standards for protecting health data, even though the website is not part of the NHS networks.
+7.	General Data Protection Regulation (GDPR) Compliance; This does not generally apply to us as we won’t actively be collecting personal identifiable information (PII), but we have chosen to note this still as an important guideline.
+
+Now due to the time frame and resources at our disposal, we are surly unable to implement all these standards, but we have been able to stick to best practices in programming.
+
+
+
+
+Notable Security measures
+
+
+1.	Passwords are not inputted in plain text
+2.	Client-side validation in place
+3.	Secure input type for signup fields
+
+
+
+
+
+What more could be done
+
+Implement content security policy on all html files
+Implement CSRF Protection on the signup page
+And basically apply all previously named security standards to meet.
