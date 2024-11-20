@@ -20,7 +20,7 @@
 
     <body>
 
-        <header>
+        <header id="head1">
             <h1 id="mainTitle"> RGU Echo</h1>
         </header>
 
@@ -58,9 +58,12 @@
                 <label id="colorBlindText" for="colorBlindText">Choose Colour-Blind Options:</label>
                 <select name="tcolours" id="tcolours">
                   <option value="Default" >Default</option>
-                  <option value="ComicSans">Comic Sans</option>
-                  <option value="Courier">Courier</option>
+                  <option value="Deuteranopia">Deuteranopia</option>
+                  <option value="Protanopia">Protanopia</option>
+                  <option value="Tritanopia">Tritanopia</option>
                 </select>
+                <br><br>
+                <button id='btn3' onclick="ColorBlind()">Change colour</button>
 
 
 

@@ -100,4 +100,10 @@ function changeFont(){
         btnTag.style.fontFamily = "Arial";
         
     }
+
+}
+function ColorBlind(){
+    alert()
+    var headerTag = document.getElementById("head1")
+    headerTag.style.backgroundColor="rgb(102, 138, 255)"
 }
