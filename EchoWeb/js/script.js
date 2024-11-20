@@ -5,6 +5,9 @@ function changeText(){
     var ulTag = document.querySelector("ul")
     var aTag = document.querySelector("a")
     var btnTag = document.querySelector("button")
+    
+    
+
 
     if(e.value == "Big"){
         h1Tag.style.fontSize = "100px"
@@ -43,6 +46,10 @@ function darkMode(){
     mainTag.style.backgroundColor = "rgb(50, 50, 46)"
     var text =document.getElementById("textl")
     text.style.backgroundColor="rgb(217, 217, 217)"
+    var hightlight = document.querySelector(".navitemActive")
+    var textColour = document.getElementById("color")
+    hightlight.style.backgroundColor="rgb(56, 16, 59)"
+    textColour.style.color="rgb(217, 144, 223)"
 }
 
 function lightMode(){
@@ -50,4 +57,18 @@ function lightMode(){
     mainTag.style.backgroundColor = "rgb(255, 255, 255)"
     var text =document.getElementById("textl")
     text.style.backgroundColor="rgb(255, 255, 255)"
+    var hightlight = document.querySelector(".navitemActive")
+    var textColour = document.getElementById("color")
+    hightlight.style.backgroundColor="rgb(52, 53, 54)"
+    textColour.style.color="white"
+}
+
+function changeFont(){
+    alert("test")
+    var e = document.getElementById("tSize")
+    var text =document.getElementById("textl")
+    var h1Tag = document.querySelector("h1")
+    var ulTag = document.querySelector("ul")
+    var aTag = document.querySelector("a")
+    var btnTag = document.querySelector("button")
 }

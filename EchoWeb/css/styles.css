@@ -59,6 +59,10 @@ nav li:hover{
     color:white;
 }
 
+nav li a:hover{
+    color:white;
+}
+
 nav li a{
     text-decoration: none;
     color: black;
